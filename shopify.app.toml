@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "faqs"
+client_id = "8061c2c79b46a1952e0f996bc937a066"
+application_url = "https://protest-auctions-otherwise-neighborhood.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/auth/callback",
+  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/auth/shopify/callback",
+  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/api/auth/callback",
+  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "storeitme.myshopify.com"
