@@ -22,9 +22,17 @@ model Session {
 }
 
 model FAQ {
-  id               Int      @id @default(autoincrement())
-  question         String
-  user             String?
-  answers          String?[]
-  createdAt        DateTime @default(now())
+  id        Int       @id @default(autoincrement())
+  question  String   
+  user      String?
+  answers   Answer[]
+  createdAt DateTime  @default(now())
+}
+
+model Answer {
+  id        Int      @id @default(autoincrement())
+  content   String
+  faqId     Int    
+  createdAt DateTime @default(now())
+  faq       FAQ      @relation(fields: [faqId], references: [id])
 }
