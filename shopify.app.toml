@@ -2,7 +2,7 @@
 
 name = "faqs"
 client_id = "8061c2c79b46a1952e0f996bc937a066"
-application_url = "https://protest-auctions-otherwise-neighborhood.trycloudflare.com"
+application_url = "https://com-informed-coast-bacteria.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/auth/callback",
-  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/auth/shopify/callback",
-  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/api/auth/callback",
-  "https://protest-auctions-otherwise-neighborhood.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://com-informed-coast-bacteria.trycloudflare.com/auth/callback",
+  "https://com-informed-coast-bacteria.trycloudflare.com/auth/shopify/callback",
+  "https://com-informed-coast-bacteria.trycloudflare.com/api/auth/callback",
+  "https://com-informed-coast-bacteria.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
